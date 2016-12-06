@@ -1,10 +1,20 @@
 # How HTTP/MVC is like a plane
 
+<!--9:55 5 minutes-->
+
+## Start with some vocabulary
+
+- **Model**: The model directly manages the data, logic, and rules of the application.
+- **View**: A view can be any output representation of information, such as a chart or a diagram.
+- **Controller**: The controller accepts input and converts it to commands for the model or view.
+
 ## 1. The plane rolls out onto the tarmac.
 An HTTP request is initiated when...
 - ...the user clicks "Submit" on a form (a `POST` request) on your website
 - ...the user clicks "Submit" on Postman
 - ...the user enters a URL in their web browser and hits Return (a `GET` request)
+
+<!--10:00 10 minutes -->
 
 ## 2. The plane is loaded up with cargo and prepped to fly to another airport.
 The web browser packages the information the user submitted in the form -- the **parameters** -- and gets it ready to be sent to your server.
@@ -37,12 +47,16 @@ If the `method` is `POST`, the web browser turns the parameters into a key-value
 }
 ```
 
+<!--10:10 5 minutes -->
+
 ## 3. The plane takes off!
 *What actually happens:* The HTTP request is sent from the user's browser to your server.
 
 If the `method` is `GET`, The web browser sends a request to  `/nerds?name=Zeb&title=Professor%20of%20Fibonaccization`.
 
 If the `method` is `POST`, the web browser sends a request to `/nerds`, with the parameters sent behind-the-scenes in the request's "body", invisible to the user.
+
+<!--10:15 10 minutes -->
 
 ## 4. The plane arrives at the destination airport, and is routed to land at a specific runway by the Air Traffic Control tower.
 
@@ -54,6 +68,8 @@ If the request is `POST` it'll be sent to the `post("/nerds", ...` route.
 
 ## 5. The cargo is unloaded from the plane.
 *What actually happens:* The HTTP request is parsed. The server takes the parameters from either the URL (`GET`) or the body (`POST`) and stores it in the `request` (or `req`) object.
+
+<!--10:25 10 minutes -->
 
 ## 6. The cargo is processed.
 *What actually happens:* The server runs the (callback) function that's inside the route. That is our **controller**.  Generally, this does something *to* or *with* the information contained in the `request`.
@@ -70,6 +86,8 @@ This will add a document to the `nerds` collection that has the value `Zeb` for 
 ### 6.a. New cargo is retrieved from the warehouse, according to specifications
 
 The "warehouse" is the database. There are a bunch of different sections (collections) in this warehouse, and the specifications for storing, accessing, changing, and deleting cargo (documents) in each section are called **models**.
+
+<!--10:35 10 minutes -->
 
 ## 7. The processed cargo is (maybe) sent to a packaging plant.
 *What actually happens:* If the route indicates that an `.ejs` template should be used, the information that was manipulated with the **controller** is sent to the `.ejs` template.
@@ -98,6 +116,8 @@ This becomes:
 
 If you view the source code of a page in your Node app, you will see **no EJS tags** -- just HTML.  This is our **view**.
 
+<!--10:45 5 minutes -->
+
 ## 8. The packaged cargo is sent back to the first airport.
 *What actually happens:* A server sends something back, a string of information, in response to every HTTP request.
 
@@ -107,8 +127,12 @@ When you make a `POST` request, the server might respond with a string that tell
 
 In this case, the HTML of the rendered nerd page is the string that will be sent back.
 
+<!--10:50 5 minutes -->
+
 ## Putting it all together
 
 ![](mvc.png)
+
+<!--10:55 5 minutes -->
 
 <!-- Wrap-up with catch phrase on model, view, and controller -->
