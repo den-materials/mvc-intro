@@ -5,9 +5,9 @@
 ## Objectives
 *By the end of this class, students should be able to:*
 
--**Define** Model, View, and Controller
--**Describe** the steps of an HTTP Request and Response
--**Describe** the steps of building a full-stack web application
+- **Define** Model, View, and Controller
+- **Describe** the steps of an HTTP Request and Response
+- **Describe** the steps of building a full-stack web application
 
 
 ## Start with some vocabulary
