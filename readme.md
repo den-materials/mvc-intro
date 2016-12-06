@@ -96,7 +96,7 @@ This becomes:
 <h1>Introducing Zeb, also known as Professor of Fibonaccization</h1>
 ```
 
-If you view the source code of a page in your Node app, you will see **no EJS tags** -- just HTML.  This is our `view`.
+If you view the source code of a page in your Node app, you will see **no EJS tags** -- just HTML.  This is our **view**.
 
 ## 8. The packaged cargo is sent back to the first airport.
 *What actually happens:* A server sends something back, a string of information, in response to every HTTP request.
