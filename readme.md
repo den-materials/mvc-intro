@@ -27,7 +27,7 @@ If the `method` is `GET`, the web browser turns the parameters into a querystrin
 /nerds?name=Zeb&title=Professor%20of%20Fibonaccization
 ```
 
-### 2.b The cargo is placed in plane's cargo hold.
+### 2.b The cargo is placed in the plane's cargo hold.
 
 If the `method` is `POST`, the web browser turns the parameters into a key-value store (like a JS object). In this case, something like:
 ```
@@ -77,7 +77,7 @@ The "warehouse" is the database. There are a bunch of different sections (collec
 ```
 post("/thugs", function(req, res) {
   Nerd.create({name: req.body.name, title: req.body.title}, function(error, nerd) {
-    res.render('nerd_index', {nerd: nerd});
+    res.render('nerd_show', {nerd: nerd});
   });
 });
 ```
@@ -106,3 +106,9 @@ When you type a URL in your browser's address bar and hit Return, your browser m
 When you make a `POST` request, the server might respond with a string that tells your web browser to redirect you to another page. It might also respond with the HTML/CSS/Javascript to make a full webpage. It might also just return a short string saying the request was successful. That's up to the developer, and depends on what they want the app to do.
 
 In this case, the HTML of the rendered nerd page is the string that will be sent back.
+
+## Putting it all together
+
+![](mvc.png)
+
+<!-- Wrap-up with catch phrase on model, view, and controller -->
