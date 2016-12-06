@@ -2,6 +2,14 @@
 
 <!--9:55 5 minutes-->
 
+## Objectives
+*By the end of this class, students should be able to:*
+
+- **Define** Model, View, and Controller
+- **Describe** the steps of an HTTP Request and Response
+- **Describe** the steps of building a full-stack web application
+
+
 ## Start with some vocabulary
 
 - **Model**: The model directly manages the data, logic, and rules of the application.
@@ -87,6 +95,8 @@ This will add a document to the `nerds` collection that has the value `Zeb` for 
 
 The "warehouse" is the database. There are a bunch of different sections (collections) in this warehouse, and the specifications for storing, accessing, changing, and deleting cargo (documents) in each section are called **models**.
 
+<!--10:44 -->
+
 <!--10:35 10 minutes -->
 
 ## 7. The processed cargo is (maybe) sent to a packaging plant.
@@ -136,3 +146,5 @@ In this case, the HTML of the rendered nerd page is the string that will be sent
 <!--10:55 5 minutes -->
 
 <!-- Wrap-up with catch phrase on model, view, and controller -->
+
+<!--11:12 -->
