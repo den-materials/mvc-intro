@@ -85,8 +85,8 @@ If the request is `POST` it'll be sent to the `post("/nerds", ...` route.
 For example:
 
 ```
-post("/nerds", function(req,res) {
-  db.Nerd.create({name: req.body.name, title: req.body.title});
+app.post("/nerds", function(req,res) {
+  Nerd.create({name: req.body.name, title: req.body.title});
 });
 ```
 This will add a document to the `nerds` collection that has the value `Zeb` for the `name` key, and `Professor of Fibonaccization` for the `title` key.
@@ -103,10 +103,10 @@ The "warehouse" is the database. There are a bunch of different sections (collec
 *What actually happens:* If the route indicates that an `.ejs` template should be used, the information that was manipulated with the **controller** is sent to the `.ejs` template.
 
 ```
-post("/thugs", function(req, res) {
-  Nerd.create({name: req.body.name, title: req.body.title}, function(error, nerd) {
-    res.render('nerd_show', {nerd: nerd});
-  });
+app.post('/nerds', function(req, res) { //and look at that controller
+	Nerd.create({name: req.body.name, title: req.body.title}, function(error, nerd) {
+		res.render('nerd_show', {nerd: nerd});
+	});
 });
 ```
 
