@@ -2,6 +2,8 @@
 
 <!--9:55 5 minutes-->
 
+<!--Actually 10:51 WDI3 -->
+
 ## Objectives
 *By the end of this class, students should be able to:*
 
@@ -143,6 +145,7 @@ In this case, the HTML of the rendered nerd page is the string that will be sent
 
 ![](mvc.png)
 
+<!--11:46 WDI3-->
 <!--10:55 5 minutes -->
 
 <!-- Wrap-up with catch phrase on model, view, and controller -->
