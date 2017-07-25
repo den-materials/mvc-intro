@@ -2,6 +2,7 @@
 
 <!--9:55 5 minutes-->
 
+<!--2:55 WDI4 -->
 <!--Actually 10:51 WDI3 -->
 
 ## Objectives
@@ -24,6 +25,7 @@ An HTTP request is initiated when...
 - ...the user clicks "Submit" on Postman
 - ...the user enters a URL in their web browser and hits Return (a `GET` request)
 
+<!--WDI4 2:58 -->
 <!--10:00 10 minutes -->
 
 ## 2. The plane is loaded up with cargo and prepped to fly to another airport.
@@ -57,6 +59,7 @@ If the `method` is `POST`, the web browser turns the parameters into a key-value
 }
 ```
 
+<!--3:08 WDI4 -->
 <!--10:10 5 minutes -->
 
 ## 3. The plane takes off!
@@ -66,6 +69,7 @@ If the `method` is `GET`, The web browser sends a request to  `/nerds?name=Zeb&t
 
 If the `method` is `POST`, the web browser sends a request to `/nerds`, with the parameters sent behind-the-scenes in the request's "body", invisible to the user.
 
+<!--3:12 WDI4 -->
 <!--10:15 10 minutes -->
 
 ## 4. The plane arrives at the destination airport, and is routed to land at a specific runway by the Air Traffic Control tower.
@@ -99,6 +103,7 @@ The "warehouse" is the database. There are a bunch of different sections (collec
 
 <!--10:44 -->
 
+<!--3:27 WDI4 -->
 <!--10:35 10 minutes -->
 
 ## 7. The processed cargo is (maybe) sent to a packaging plant.
@@ -139,6 +144,7 @@ When you make a `POST` request, the server might respond with a string that tell
 
 In this case, the HTML of the rendered nerd page is the string that will be sent back.
 
+<!--3:37 WDI4 -->
 <!--10:50 5 minutes -->
 
 ## Putting it all together
@@ -146,8 +152,9 @@ In this case, the HTML of the rendered nerd page is the string that will be sent
 ![](mvc.png)
 
 <!--11:46 WDI3-->
+<!--3:39 WDI4 -->
 <!--10:55 5 minutes -->
 
 <!-- Wrap-up with catch phrase on model, view, and controller -->
-
+<!--WDI4 3:42 -->
 <!--11:12 -->
