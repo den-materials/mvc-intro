@@ -158,3 +158,12 @@ In this case, the HTML of the rendered nerd page is the string that will be sent
 <!-- Wrap-up with catch phrase on model, view, and controller -->
 <!--WDI4 3:42 -->
 <!--11:12 -->
+
+## Stretch Goals
+
+We have built a full-stack app!  But we have a long way to go to get to a solid Project 2.  Find a partner to work with for the remainder of class, and add one or more of the following to your app:
+
+- Styles.  Make it look sleek, maybe even add a couple animations.
+- PUT and DELETE.  At the moment, all we can do is see and save our cargo.
+- A 3rd Party API.  If you're not sure where to start, the Google Maps, Twitter, and Facebook APIs are some of the best-documented.  **Note: an hour or two is not enough time to do much with these APIs, but you can at least get a feel for how they work.**
+- Organization.  We have so much code in only a couple files.  How might you clean this up with the folder structures you've seen in class?
