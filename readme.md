@@ -4,6 +4,7 @@
 
 <!--2:55 WDI4 -->
 <!--Actually 10:51 WDI3 -->
+<!--WDI5 1:35 -->
 
 ## Objectives
 *By the end of this class, students should be able to:*
@@ -12,12 +13,14 @@
 - **Describe** the steps of an HTTP Request and Response
 - **Describe** the steps of building a full-stack web application
 
-
 ## Start with some vocabulary
 
 - **Model**: The model directly manages the data, logic, and rules of the application.
 - **View**: A view can be any output representation of information, such as a chart or a diagram.
 - **Controller**: The controller accepts input and converts it to commands for the model or view.
+
+<!--WDI5 1:48 after setting up files -->
+<!--WDI5 1:55 after getting basic server.js hello world-->
 
 ## 1. The plane rolls out onto the tarmac.
 An HTTP request is initiated when...
@@ -59,6 +62,8 @@ If the `method` is `POST`, the web browser turns the parameters into a key-value
 }
 ```
 
+<!--WDI5 2:08 after getting through form creation and sendFile -->
+
 <!--3:08 WDI4 -->
 <!--10:10 5 minutes -->
 
@@ -84,6 +89,7 @@ If the request is `POST` it'll be sent to the `post("/nerds", ...` route.
 *What actually happens:* The HTTP request is parsed. The server takes the parameters from either the URL (`GET`) or the body (`POST`) and stores it in the `request` (or `req`) object.
 
 <!--10:25 10 minutes -->
+<!--WDI5 2:21 after req.body sent back to client -->
 
 ## 6. The cargo is processed.
 *What actually happens:* The server runs the (callback) function that's inside the route. That is our **controller**.  Generally, this does something *to* or *with* the information contained in the `request`.
@@ -103,6 +109,7 @@ The "warehouse" is the database. There are a bunch of different sections (collec
 
 <!--10:44 -->
 
+<!--WDI5 2:37 -->
 <!--3:27 WDI4 -->
 <!--10:35 10 minutes -->
 
@@ -133,6 +140,7 @@ This becomes:
 
 If you view the source code of a page in your Node app, you will see **no EJS tags** -- just HTML.  This is our **view**.
 
+<!--WDI5 2:49 -->
 <!--10:45 5 minutes -->
 
 ## 8. The packaged cargo is sent back to the first airport.
@@ -158,6 +166,7 @@ In this case, the HTML of the rendered nerd page is the string that will be sent
 <!-- Wrap-up with catch phrase on model, view, and controller -->
 <!--WDI4 3:42 -->
 <!--11:12 -->
+<!--WDI5 3:00 -->
 
 ## Stretch Goals
 
