@@ -5,6 +5,7 @@
 <!--2:55 WDI4 -->
 <!--Actually 10:51 WDI3 -->
 <!--WDI5 1:35 -->
+<!--WDI6 3:24 -->
 
 ## Objectives
 *By the end of this class, students should be able to:*
@@ -20,6 +21,7 @@
 - **Controller**: The controller accepts input and converts it to commands for the model or view.
 
 <!--WDI5 1:48 after setting up files -->
+<!--WDI6 3:37 -->
 <!--WDI5 1:55 after getting basic server.js hello world-->
 
 ## 1. The plane rolls out onto the tarmac.
@@ -167,6 +169,7 @@ In this case, the HTML of the rendered nerd page is the string that will be sent
 <!--WDI4 3:42 -->
 <!--11:12 -->
 <!--WDI5 3:00 -->
+<!--WDI6 4:15 -->
 
 ## Stretch Goals
 
